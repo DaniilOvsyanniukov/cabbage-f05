@@ -5,8 +5,8 @@ import Container from './components/Container';
 
 import './App.css';
 
-const Example = lazy(() =>
-  import('./pages/Example' /* webpackChunkName: "Example" */),
+const Header = lazy(() =>
+  import('./pages/Header' /* webpackChunkName: "Example" */),
 );
 
 function App() {
@@ -14,11 +14,9 @@ function App() {
     <Container>
       <Suspense fallback={<div>Downloading...</div>}>
         <Routes>
-          <Route end path="/" element={<Example />} />
+          <Route end path="/" element={<Header />} />
         </Routes>
       </Suspense>
-
-      <div>React App</div>
     </Container>
   );
 }
