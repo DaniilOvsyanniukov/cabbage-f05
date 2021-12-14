@@ -1,19 +1,24 @@
 .logo {
-  position: absolute;
-  width: 90px;
-  height: 31px;
-  left: 19px;
-  top: 12px;
+  margin-left: 19px;
+  margin-top: 12px;
 }
 
 .headerContainer {
+  display: flex;
   width: 320px;
   height: 56px;
 }
 .logout {
-  position: absolute;
-  left: 0%;
-  right: 25%;
-  top: 0%;
-  bottom: 0%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: 19px;
+}
+.user {
+  width: 32px;
+  margin-top: 12px;
+  height: 32px;
+  margin-left: 129px;
+  background: #f5f6fa;
+
+  border-radius: 50%;
 }
